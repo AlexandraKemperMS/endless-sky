@@ -222,10 +222,10 @@ namespace {
 
 // Construct and Load() at the same time.
 Ship::Ship(const DataNode &node)
+	: captain("")
 {
 	Load(node);
 }
-
 
 
 void Ship::Load(const DataNode &node)
@@ -1350,10 +1350,11 @@ void Ship::Place(Point position, Point velocity, Angle angle, bool isDeparting)
 }
 
 
-void Ship::SetCaptain(const string &captain)
+void Ship::SetCaptain(string captain)
 {
 	this->captain = captain;
 }
+
 
 void Ship::SetName(const string &name)
 {
@@ -1426,6 +1427,7 @@ void Ship::Move(vector<Visual> &visuals, list<shared_ptr<Flotsam>> &flotsam)
 	if (!isBeingDestroyed)
 		DoEngineVisuals(visuals, isUsingAfterburner);
 }
+
 
 // Set which system this ship is in.
 void Ship::SetSystem(const System *system)
@@ -2003,6 +2005,10 @@ const System *Ship::GetSystem() const
 	return currentSystem;
 }
 
+const string Ship::GetCaptain() const
+{
+	return captain;
+}
 
 
 const System *Ship::GetActualSystem() const

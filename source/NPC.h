@@ -97,12 +97,6 @@ public:
     NPC Instantiate(std::map<std::string, std::string> &subs, const System *origin, const System *destination,
                     int jumps, int64_t payload) const;
 
-void ConvertFleetToShips(NPC &result) const;
-
-    void ConvertFleetToShips(NPC &result) const;
-
-    void ConvertFleetToShips(NPC &result, const std::shared_ptr<Ship> &ship) const;
-
 private:
     // Handle any NPC mission actions that may have been triggered by a ShipEvent.
     void DoActions(const ShipEvent &event, bool newEvent, PlayerInfo &player, UI *ui, const Mission *caller);

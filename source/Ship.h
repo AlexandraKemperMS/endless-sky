@@ -146,6 +146,7 @@ public:
 
 	// Set / Get the name of this model of ship.
 	void SetTrueModelName(const std::string &model);
+	const std::string GetCaptain() const;
 	const std::string &TrueModelName() const;
 	const std::string &DisplayModelName() const;
 	const std::string &PluralModelName() const;
@@ -179,7 +180,7 @@ public:
 	void SetGovernment(const Government *government);
 	void SetIsSpecial(bool special = true);
 	bool IsSpecial() const;
-	void SetCaptain(const string &captain);
+	void SetCaptain(const std::string captain);
 
 	// If a ship belongs to the player, the player can give it commands.
 	void SetIsYours(bool yours = true);
@@ -562,7 +563,7 @@ private:
 
 	double attraction = 0.;
 	double deterrence = 0.;
-	std::string &captain; 
+	std::string captain; 
 
 	// Number of AI steps this ship has spent lingering
 	int lingerSteps = 0;
