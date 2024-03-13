@@ -1352,7 +1352,6 @@ void Ship::Place(Point position, Point velocity, Angle angle, bool isDeparting)
 
 void Ship::SetCaptain(const string &captain)
 {
-	transform(this->captain.begin(), this->captain.end(), this->captain.begin(), ::tolower);
 	this->captain = captain;
 }
 
