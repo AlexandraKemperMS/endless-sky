@@ -1,0 +1,117 @@
+Package: vcpkg-cmake-config
+Version: 2022-02-06
+Port-Version: 1
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 4ca108bc46af4c95c0ab5fb211c5509dfd01c0521fb696d9ea8962ee714e6bf9
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2023-05-04
+Architecture: x64-windows
+Multi-Arch: same
+Abi: c75103d0f578313298c6f01f4b743995c527b7f84914d8d30e0ce2f202806ae9
+Status: install ok installed
+
+Package: egl-registry
+Version: 2022-09-20
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: b76b7bc5512ca57a9c23b1ba8fc1df7d7ed9b6d65d9fcf37e0ba94f83604011e
+Description: the EGL API and Extension Registry
+Status: install ok installed
+
+Package: opengl-registry
+Version: 2022-09-29
+Port-Version: 1
+Depends: egl-registry
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: c564a4910b6d288288b36b340949b4ca52d5bfb4b3a408c7887aae6c0cca5f61
+Description: the API and Extension registries for the OpenGL family APIs
+Status: install ok installed
+
+Package: opengl
+Version: 2022-12-04
+Port-Version: 3
+Depends: opengl-registry
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: 87abcc9cdfc3ac1783e12cabe997a25093db6f042069f3e422c9762806df9b1c
+Description: Open Graphics Library (OpenGL)[3][4][5] is a cross-language, cross-platform application programming interface (API) for rendering 2D and 3D vector graphics.
+Status: install ok installed
+
+Package: glew
+Version: 2.2.0
+Port-Version: 3
+Depends: opengl, vcpkg-cmake:x64-windows, vcpkg-cmake-config:x64-windows
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: 77d3ac894253325a9f79b28b6cebb2bbc06d7232a4653e5c2f4bd15703e45060
+Description: The OpenGL Extension Wrangler Library (GLEW) is a cross-platform open-source C/C++ extension loading library.
+Status: install ok installed
+
+Package: libjpeg-turbo
+Version: 3.0.0
+Depends: vcpkg-cmake:x64-windows, vcpkg-cmake-config:x64-windows
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: 1c7bba06765fea8c45a635b843ff7d3aa5af2a28a8b3ff2fbb5835ed59ff72e7
+Description: libjpeg-turbo is a JPEG image codec that uses SIMD instructions (MMX, SSE2, NEON, AltiVec) to accelerate baseline JPEG compression and decompression on x86, x86-64, ARM, and PowerPC systems.
+Status: install ok installed
+
+Package: libmad
+Version: 0.15.1
+Port-Version: 12
+Depends: vcpkg-cmake:x64-windows
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: 84a0559b845d691ee0416e612a11cea5615ef00364dbb49a703a98e3c63c82ff
+Description: high-quality MPEG audio decoder
+Status: install ok installed
+
+Package: zlib
+Version: 1.3
+Depends: vcpkg-cmake:x64-windows
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: fdbd958f31b4e01eb050851725e211a5ec2ded56ad578d9698325cac2403f9d9
+Description: A compression library
+Status: install ok installed
+
+Package: libpng
+Version: 1.6.39
+Port-Version: 1
+Depends: vcpkg-cmake:x64-windows, vcpkg-cmake-config:x64-windows, zlib
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: 02ea827443c52715a2ac1fb7c2d557be8e1b21457f7577ca9a9a9688ba21db18
+Description: libpng is a library implementing an interface for reading and writing PNG (Portable Network Graphics) format files
+Status: install ok installed
+
+Package: openal-soft
+Version: 1.23.1
+Depends: vcpkg-cmake:x64-windows, vcpkg-cmake-config:x64-windows
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: 5100dbe4c106a20d4ca992ebacf3046616f6678da6cb051e3ecb7e08f45b21a1
+Description: OpenAL Soft is an LGPL-licensed, cross-platform, software implementation of the OpenAL 3D audio API.
+Status: install ok installed
+
+Package: sdl2
+Version: 2.28.2
+Depends: vcpkg-cmake:x64-windows, vcpkg-cmake-config:x64-windows
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: dbad032a29cbe064bd0a2134dde6a3b37b152545bb2dce85bd4e8ae1dc0e9f3d
+Description: Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D.
+Default-Features: base
+Status: install ok installed
+
+Package: sdl2
+Feature: base
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Description: Base functionality for SDL
+Status: install ok installed
+

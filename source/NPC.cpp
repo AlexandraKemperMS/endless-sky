@@ -672,21 +672,7 @@ NPC NPC::Instantiate(map<string, string> &subs, const System *origin, const Syst
 		result.planet = planet;
 
 	// Convert fleets into instances of ships.
-	for(const shared_ptr<Ship> &ship : ships)
-	{
-		// This ship is being defined from scratch.
-		result.ships.push_back(make_shared<Ship>(*ship));
-		result.ships.back()->FinishLoading(true);
-	}
-	auto shipIt = stockShips.begin();
-	auto nameIt = shipNames.begin();
-	for( ; shipIt != stockShips.end() && nameIt != shipNames.end(); ++shipIt, ++nameIt)
-	{
-		result.ships.push_back(make_shared<Ship>(**shipIt));
-		result.ships.back()->SetName(*nameIt);
-	}
-	for(const ExclusiveItem<Fleet> &fleet : fleets)
-		fleet->Place(*result.system, result.ships, false, !overrideFleetCargo);
+	ConvertFleetToShips(result);
 	// Ships should either "enter" the system or start out there.
 	for(const shared_ptr<Ship> &ship : result.ships)
 	{
@@ -728,6 +714,25 @@ NPC NPC::Instantiate(map<string, string> &subs, const System *origin, const Syst
 		result.conversation = ExclusiveItem<Conversation>(conversation->Instantiate(subs));
 
 	return result;
+}
+
+void NPC::ConvertFleetToShips(NPC &result) const
+{
+for(const shared_ptr<Ship> &ship : ships)
+	{
+		// This ship is being defined from scratch.
+		result.ships.push_back(make_shared<Ship>(*ship));
+		result.ships.back()->FinishLoading(true);
+	}
+	auto shipIt = stockShips.begin();
+	auto nameIt = shipNames.begin();
+	for( ; shipIt != stockShips.end() && nameIt != shipNames.end(); ++shipIt, ++nameIt)
+	{
+		result.ships.push_back(make_shared<Ship>(**shipIt));
+		result.ships.back()->SetName(*nameIt);
+	}
+	for(const ExclusiveItem<Fleet> &fleet : fleets)
+		fleet->Place(*result.system, result.ships, false, !overrideFleetCargo);
 }
 
 

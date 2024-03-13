@@ -1,0 +1,17 @@
+x64-mingw-dynamic/
+x64-mingw-dynamic/debug/
+x64-mingw-dynamic/debug/lib/
+x64-mingw-dynamic/debug/lib/libmad.a
+x64-mingw-dynamic/debug/lib/pkgconfig/
+x64-mingw-dynamic/debug/lib/pkgconfig/mad.pc
+x64-mingw-dynamic/include/
+x64-mingw-dynamic/include/mad.h
+x64-mingw-dynamic/lib/
+x64-mingw-dynamic/lib/libmad.a
+x64-mingw-dynamic/lib/pkgconfig/
+x64-mingw-dynamic/lib/pkgconfig/mad.pc
+x64-mingw-dynamic/share/
+x64-mingw-dynamic/share/libmad/
+x64-mingw-dynamic/share/libmad/copyright
+x64-mingw-dynamic/share/libmad/vcpkg.spdx.json
+x64-mingw-dynamic/share/libmad/vcpkg_abi_info.txt

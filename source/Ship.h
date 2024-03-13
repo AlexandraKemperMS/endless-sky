@@ -179,6 +179,7 @@ public:
 	void SetGovernment(const Government *government);
 	void SetIsSpecial(bool special = true);
 	bool IsSpecial() const;
+	void SetCaptain(const string &captain);
 
 	// If a ship belongs to the player, the player can give it commands.
 	void SetIsYours(bool yours = true);
@@ -561,6 +562,7 @@ private:
 
 	double attraction = 0.;
 	double deterrence = 0.;
+	std::string &captain; 
 
 	// Number of AI steps this ship has spent lingering
 	int lingerSteps = 0;

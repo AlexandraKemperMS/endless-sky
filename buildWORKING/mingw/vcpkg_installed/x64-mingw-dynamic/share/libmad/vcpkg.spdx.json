@@ -1,0 +1,177 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/libmad-x64-mingw-dynamic-0.15.1#12-305c033c-2623-4b15-bf75-effdab44c7a4",
+  "name": "libmad:x64-mingw-dynamic@0.15.1#12 0b1277fce037d67c0b97c35453046b10a21055711e4c4d70ffb0e7c6fbeb0f77",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-9990a4c9026811a312cb2af78bf77f3d9d288416"
+    ],
+    "created": "2023-08-31T19:51:12Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-3"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-4"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-3",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-4",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "libmad",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "0.15.1#12",
+      "downloadLocation": "git+https://github.com/Microsoft/vcpkg@eaed142825775ca972204c5c2d7720043eef3c2b",
+      "homepage": "http://www.mars.org/home/rob/proj/mpeg/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "high-quality MPEG audio decoder",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "libmad:x64-mingw-dynamic",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "0b1277fce037d67c0b97c35453046b10a21055711e4c4d70ffb0e7c6fbeb0f77",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "libmad-0.15.1b.tar.gz",
+      "packageFileName": "libmad-0.15.1b.tar.gz",
+      "downloadLocation": "https://sourceforge.net/projects/mad/libmad/files/0.15.1b/libmad-0.15.1b.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "2cad30347fb310dc605c46bacd9da117f447a5cabedd8fefdb24ab5de641429e5ec5ce8af7aefa6a75a3f545d3adfa255e3fa0a2d50971f76bc0c4fc0400cc45"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./C:/Users/alkemper/source/repos/Other endless sky/endless-sky/vcpkg/buildtrees/versioning_/versions/libmad/eaed142825775ca972204c5c2d7720043eef3c2b/0001-Fix-MSVC-ARM.patch",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8de617285a369031a7cc69b4f9ac188abe96db00e4ed72cca3700986eb4be6c3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/alkemper/source/repos/Other endless sky/endless-sky/vcpkg/buildtrees/versioning_/versions/libmad/eaed142825775ca972204c5c2d7720043eef3c2b/CMakeLists.txt",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2422c24f21ab13a0833f031c6496df862f819978f93daa61674888b826b8bccf"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/alkemper/source/repos/Other endless sky/endless-sky/vcpkg/buildtrees/versioning_/versions/libmad/eaed142825775ca972204c5c2d7720043eef3c2b/mad.pc.in",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e6f92debd7ca17afb87836cc3876b21b904ef8ed3fccf748e6871cce1ba10b84"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/alkemper/source/repos/Other endless sky/endless-sky/vcpkg/buildtrees/versioning_/versions/libmad/eaed142825775ca972204c5c2d7720043eef3c2b/portfile.cmake",
+      "SPDXID": "SPDXRef-file-3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "383d3abad48e1c9492295dc938cfea8a05ac792e0d5db9c82d839cc95fed301f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/alkemper/source/repos/Other endless sky/endless-sky/vcpkg/buildtrees/versioning_/versions/libmad/eaed142825775ca972204c5c2d7720043eef3c2b/vcpkg.json",
+      "SPDXID": "SPDXRef-file-4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "eb0fd0caf6047d77b7b1c927250a23d77b40511a86c4b6ae7c09e148dc2fba21"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

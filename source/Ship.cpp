@@ -54,6 +54,7 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 
 using namespace std;
 
+
 namespace {
 	const string FIGHTER_REPAIR = "Repair fighters in";
 	const vector<string> BAY_SIDE = {"inside", "over", "under"};
@@ -879,6 +880,7 @@ bool Ship::IsValid() const
 
 
 
+
 // Save a full description of this ship, as currently configured.
 void Ship::Save(DataWriter &out) const
 {
@@ -1348,14 +1350,83 @@ void Ship::Place(Point position, Point velocity, Angle angle, bool isDeparting)
 }
 
 
+void Ship::SetCaptain(const string &captain)
+{
+	transform(this->captain.begin(), this->captain.end(), this->captain.begin(), ::tolower);
+	this->captain = captain;
+}
 
-// Set the name of this particular ship.
 void Ship::SetName(const string &name)
 {
 	this->name = name;
 }
 
+/**
+ * ## Function `Move`
+ * ### Overview
+ * Moving a ship - a ship creates effects as it moves, in particular if it's in the process of blowing up.
+ * ### Parameters
+ * 1. `vector<Visual> &visuals`: Visual elements of the ship
+ * 2. `list<shared_ptr<Flotsam>> &flotsam`: A list of debris or floating objects that the ship interacts with
+ * ### Returns
+ * If false, ship should be deleted
+ * ### Example
+  ```ship->Move(newVisuals, newFlotsam); ```
+ */
+void Ship::Move(vector<Visual> &visuals, list<shared_ptr<Flotsam>> &flotsam)
+{
+	// Do nothing with ships that are being forgotten.
+	if (StepFlags())
+		return;
+		
 
+	// We're done if the ship was destroyed.
+	const int destroyResult = StepDestroyed(visuals, flotsam);
+	if (destroyResult > 0)
+		return;
+
+	const bool isBeingDestroyed = destroyResult;
+
+	// Generate energy, heat, etc. if we're not being destroyed.
+	if (!isBeingDestroyed)
+		DoGeneration();
+
+	DoPassiveEffects(visuals, flotsam);
+	DoJettison(flotsam);
+	DoCloakDecision();
+
+	bool isUsingAfterburner = false;
+
+	// Don't let the ship do anything else if it is being destroyed.
+	if (!isBeingDestroyed)
+	{
+		// See if the ship is entering hyperspace.
+		// If it is, nothing more needs to be done here.
+		if (DoHyperspaceLogic(visuals))
+			return;
+
+		// Check if we're trying to land.
+		// If we landed, we're done.
+		if (DoLandingLogic())
+			return;
+
+		// Move the turrets.
+		if (!isDisabled)
+			armament.Aim(firingCommands);
+
+		DoInitializeMovement();
+		StepPilot();
+		DoMovement(isUsingAfterburner);
+		StepTargeting();
+	}
+
+	// Move the ship.
+	position += velocity;
+
+	// Show afterburner flares unless the ship is being destroyed.
+	if (!isBeingDestroyed)
+		DoEngineVisuals(visuals, isUsingAfterburner);
+}
 
 // Set which system this ship is in.
 void Ship::SetSystem(const System *system)
@@ -1555,62 +1626,6 @@ const FireCommand &Ship::FiringCommands() const noexcept
 
 
 
-// Move this ship. A ship may create effects as it moves, in particular if
-// it is in the process of blowing up. If this returns false, the ship
-// should be deleted.
-void Ship::Move(vector<Visual> &visuals, list<shared_ptr<Flotsam>> &flotsam)
-{
-	// Do nothing with ships that are being forgotten.
-	if(StepFlags())
-		return;
-
-	// We're done if the ship was destroyed.
-	const int destroyResult = StepDestroyed(visuals, flotsam);
-	if(destroyResult > 0)
-		return;
-
-	const bool isBeingDestroyed = destroyResult;
-
-	// Generate energy, heat, etc. if we're not being destroyed.
-	if(!isBeingDestroyed)
-		DoGeneration();
-
-	DoPassiveEffects(visuals, flotsam);
-	DoJettison(flotsam);
-	DoCloakDecision();
-
-	bool isUsingAfterburner = false;
-
-	// Don't let the ship do anything else if it is being destroyed.
-	if(!isBeingDestroyed)
-	{
-		// See if the ship is entering hyperspace.
-		// If it is, nothing more needs to be done here.
-		if(DoHyperspaceLogic(visuals))
-			return;
-
-		// Check if we're trying to land.
-		// If we landed, we're done.
-		if(DoLandingLogic())
-			return;
-
-		// Move the turrets.
-		if(!isDisabled)
-			armament.Aim(firingCommands);
-
-		DoInitializeMovement();
-		StepPilot();
-		DoMovement(isUsingAfterburner);
-		StepTargeting();
-	}
-
-	// Move the ship.
-	position += velocity;
-
-	// Show afterburner flares unless the ship is being destroyed.
-	if(!isBeingDestroyed)
-		DoEngineVisuals(visuals, isUsingAfterburner);
-}
 
 
 

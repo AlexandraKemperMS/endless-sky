@@ -1,0 +1,1370 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "tests/EndlessSkyTests.exe"
+		},
+		{
+			"path" : "tests/EndlessSkyTests.pdb"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_executable",
+			"add_executable",
+			"target_link_libraries",
+			"set_target_properties",
+			"_find_package",
+			"include",
+			"find_package",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"tests/CMakeLists.txt",
+			"CMakeLists.txt",
+			"C:/Program Files/CMake/share/cmake-3.27/Modules/FindPNG.cmake",
+			"build/vcpkg_installed/x64-windows/share/png/vcpkg-cmake-wrapper.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 598,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 121,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 68,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 813,
+				"parent" : 6
+			},
+			{
+				"file" : 4,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 3,
+				"parent" : 8
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 134,
+				"parent" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 126,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 159,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 166,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/alkemper/source/repos/Other endless sky/endless-sky/tests/unit/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "C:/Users/alkemper/source/repos/Other endless sky/endless-sky/build/vcpkg_installed/x64-windows/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "C:/Users/alkemper/source/repos/Other endless sky/endless-sky/build/vcpkg_installed/x64-windows/include/SDL2"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "C:/Users/alkemper/source/repos/Other endless sky/endless-sky/build/vcpkg_installed/x64-windows/include/AL"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "EndlessSkyLib::@411ffd8adc737496fe19"
+		}
+	],
+	"id" : "EndlessSkyTests::@a44f0ac069e85531cdee",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\AI.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Account.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\AlertLabel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\AmmoDisplay.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Angle.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Armament.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\AsteroidField.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Audio.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\BankPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\BatchDrawList.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\BatchShader.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Bitset.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\BoardingPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Body.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\CaptureOdds.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\CargoHold.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\CategoryList.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\CollisionSet.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Color.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Command.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\ConditionSet.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\ConditionsStore.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Conversation.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\ConversationPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\CoreStartData.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\DamageProfile.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\DataFile.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\DataNode.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\DataWriter.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Date.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Depreciation.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Dialog.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Dictionary.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\DistanceCalculationSettings.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\DistanceMap.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Distribution.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\DrawList.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Effect.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Engine.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\EsUuid.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\EscortDisplay.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\File.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Files.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\FillShader.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\FireCommand.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Fleet.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\FleetCargo.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Flotsam.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\FogShader.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\FormationPattern.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\FrameTimer.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Galaxy.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\GameAction.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\GameData.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\GameEvent.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\GameLoadingPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Gamerules.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\GameWindow.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Government.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\HailPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Hardpoint.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Hazard.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\HiringPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\ImageBuffer.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\ImageSet.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\InfoPanelState.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Information.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Interface.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\ItemInfoDisplay.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Logger.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\LineShader.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\LoadPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\LocationFilter.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\LogbookPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\MainPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\MapDetailPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\MapOutfitterPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\MapPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\MapPlanetCard.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\MapSalesPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\MapShipyardPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Mask.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\MaskManager.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\MenuAnimationPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\MenuPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Messages.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Minable.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Mission.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\MissionAction.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\MissionPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Mortgage.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Music.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\NPC.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\NPCAction.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\News.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Outfit.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\OutfitInfoDisplay.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\OutfitterPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\OutlineShader.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Panel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Person.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Personality.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Phrase.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Planet.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\PlanetLabel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\PlanetPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\PlayerInfo.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\PlayerInfoPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Plugins.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Point.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\PointerShader.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Politics.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Preferences.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\PreferencesPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\PrintData.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Projectile.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Radar.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\RaidFleet.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Random.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Rectangle.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\RingShader.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\SavedGame.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Screen.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Shader.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Ship.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\ShipEvent.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\ShipInfoDisplay.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\ShipInfoPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\ShipJumpNavigation.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\ShipManager.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\ShipyardPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\ShopPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Sound.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\SpaceportPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Sprite.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\SpriteQueue.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\SpriteSet.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\SpriteShader.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\StarField.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\StartConditions.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\StartConditionsPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\StellarObject.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\System.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Test.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\TestContext.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\TestData.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\TextReplacements.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Trade.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\TradingPanel.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\UI.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\UniverseObjects.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Variant.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Visual.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Weapon.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Weather.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\Wormhole.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\opengl.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\ship\\ShipAICache.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\text\\DisplayText.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\text\\Font.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\text\\FontSet.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\text\\Format.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\text\\Table.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\text\\Utf8.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "source\\CMakeFiles\\EndlessSkyLib.dir\\.\\text\\WrappedText.cpp.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "vcpkg_installed\\x64-windows\\debug\\lib\\SDL2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "vcpkg_installed\\x64-windows\\debug\\lib\\libpng16d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "vcpkg_installed\\x64-windows\\debug\\lib\\zlibd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "vcpkg_installed\\x64-windows\\debug\\lib\\jpeg.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "vcpkg_installed\\x64-windows\\debug\\lib\\OpenAL32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "vcpkg_installed\\x64-windows\\debug\\lib\\mad.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "rpcrt4.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "Winmm.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "opengl32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "vcpkg_installed\\x64-windows\\debug\\lib\\glew32d.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "opengl32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "glu32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "EndlessSkyTests",
+	"nameOnDisk" : "EndlessSkyTests.exe",
+	"paths" : 
+	{
+		"build" : "tests",
+		"source" : "tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				26
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 16,
+			"path" : "tests/unit/include/catch.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 16,
+			"path" : "tests/unit/include/datanode-factory.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 16,
+			"path" : "tests/unit/include/es-test.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 16,
+			"path" : "tests/unit/include/output-capture.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/comparators/test_byGivenOrder.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/comparators/test_byName.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/helpers/datanode-factory.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/test_account.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/test_angle.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/test_bitset.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/test_categoryList.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/test_conditionSet.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/test_conditionsStore.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/test_datafile.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/test_datanode.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/test_dictionary.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/test_distance_calculation_settings.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/test_esuuid.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/test_exclusiveItem.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/test_firecommand.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/test_formationPattern.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/test_main.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/test_point.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/test_random.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/test_set.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/test_ship.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"path" : "tests/unit/src/test_template.txt",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/test_weightedList.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/text/test_alignment.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/text/test_displaytext.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/text/test_format.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/text/test_layout.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "tests/unit/src/text/test_truncate.cpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

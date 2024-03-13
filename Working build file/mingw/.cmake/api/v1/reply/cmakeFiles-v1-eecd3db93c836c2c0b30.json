@@ -1,0 +1,342 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"path" : "utils/vcpkg_bootstrap.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/mingw/CMakeFiles/3.27.4/CMakeSystem.cmake"
+		},
+		{
+			"path" : "vcpkg/scripts/buildsystems/vcpkg.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/mingw/CMakeFiles/3.27.4/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/mingw/CMakeFiles/3.27.4/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-windres.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/mingw/vcpkg_installed/x64-mingw-dynamic/share/sdl2/SDL2ConfigVersion.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/mingw/vcpkg_installed/x64-mingw-dynamic/share/sdl2/SDL2Config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/FeatureSummary.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/mingw/vcpkg_installed/x64-mingw-dynamic/share/sdl2/SDL2Targets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/mingw/vcpkg_installed/x64-mingw-dynamic/share/sdl2/SDL2Targets-debug.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/mingw/vcpkg_installed/x64-mingw-dynamic/share/sdl2/SDL2Targets-release.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/mingw/vcpkg_installed/x64-mingw-dynamic/share/sdl2/SDL2mainTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/mingw/vcpkg_installed/x64-mingw-dynamic/share/sdl2/SDL2mainTargets-debug.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/mingw/vcpkg_installed/x64-mingw-dynamic/share/sdl2/SDL2mainTargets-release.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/mingw/vcpkg_installed/x64-mingw-dynamic/share/sdl2/sdlfind.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/mingw/vcpkg_installed/x64-mingw-dynamic/share/png/vcpkg-cmake-wrapper.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/FindPNG.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/mingw/vcpkg_installed/x64-mingw-dynamic/share/zlib/vcpkg-cmake-wrapper.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/FindZLIB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/mingw/vcpkg_installed/x64-mingw-dynamic/share/jpeg/vcpkg-cmake-wrapper.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/FindJPEG.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/mingw/vcpkg_installed/x64-mingw-dynamic/share/glew/vcpkg-cmake-wrapper.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/mingw/vcpkg_installed/x64-mingw-dynamic/share/glew/glew-config.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/mingw/vcpkg_installed/x64-mingw-dynamic/share/glew/glew-targets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/mingw/vcpkg_installed/x64-mingw-dynamic/share/glew/glew-targets-debug.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/mingw/vcpkg_installed/x64-mingw-dynamic/share/glew/glew-targets-release.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/mingw/vcpkg_installed/x64-mingw-dynamic/share/glew/CopyImportedTargetProperties.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/mingw/vcpkg_installed/x64-mingw-dynamic/share/openal-soft/OpenALConfig.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/mingw/vcpkg_installed/x64-mingw-dynamic/share/openal-soft/OpenALTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/mingw/vcpkg_installed/x64-mingw-dynamic/share/openal-soft/OpenALTargets-debug.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/mingw/vcpkg_installed/x64-mingw-dynamic/share/openal-soft/OpenALTargets-release.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenGL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/CTest.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/CTestUseLaunchers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/CTestTargets.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/DartConfiguration.tcl.in"
+		},
+		{
+			"path" : "vcpkg.json"
+		},
+		{
+			"path" : "vcpkg-configuration.json"
+		},
+		{
+			"path" : "source/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "C:/Users/alkemper/source/repos/Other endless sky/endless-sky/build/mingw",
+		"source" : "C:/Users/alkemper/source/repos/Other endless sky/endless-sky"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

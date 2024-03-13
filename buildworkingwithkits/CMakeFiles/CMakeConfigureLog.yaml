@@ -1,0 +1,168 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:61 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:61 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:61 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/Llvm/x64/bin/clang-cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      clang-cl: error: unable to execute command: program not executable
+      clang-cl: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:61 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/Llvm/x64/bin/clang-cl.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is Clang, found in:
+        C:/Users/alkemper/source/repos/Other endless sky/endless-sky/build/CMakeFiles/3.27.4/CompilerIdCXX/CMakeCXXCompilerId.obj
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1155 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:61 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        Note: including file: ./foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:61 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/alkemper/source/repos/Other endless sky/endless-sky/build/CMakeFiles/CMakeScratch/TryCompile-d3uxec"
+      binary: "C:/Users/alkemper/source/repos/Other endless sky/endless-sky/build/CMakeFiles/CMakeScratch/TryCompile-d3uxec"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/alkemper/source/repos/Other endless sky/endless-sky/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/alkemper/source/repos/Other endless sky/endless-sky/build/CMakeFiles/CMakeScratch/TryCompile-d3uxec'
+        
+        Run Build Command(s): C:/Users/alkemper/ninja/ninja.exe -v cmTC_f6ae7
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\Preview\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe  /nologo -TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_f6ae7.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_f6ae7.dir\\ -c -- "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_f6ae7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\Preview\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_f6ae7.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_f6ae7.exe /implib:cmTC_f6ae7.lib /pdb:cmTC_f6ae7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console   && cmd.exe /C "cd /D "C:\\Users\\alkemper\\source\\repos\\Other endless sky\\endless-sky\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3uxec" && C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file "C:/Users/alkemper/source/repos/Other endless sky/endless-sky/vcpkg/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary "C:/Users/alkemper/source/repos/Other endless sky/endless-sky/build/CMakeFiles/CMakeScratch/TryCompile-d3uxec/cmTC_f6ae7.exe" -installedDir "C:/Users/alkemper/source/repos/Other endless sky/endless-sky/vcpkg/installed/x64-windows/debug/bin" -OutVariable out""
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake:121 (_record_compiler_features_cxx)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:61 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "C:/Users/alkemper/source/repos/Other endless sky/endless-sky/build/CMakeFiles/CMakeScratch/TryCompile-dlxhot"
+      binary: "C:/Users/alkemper/source/repos/Other endless sky/endless-sky/build/CMakeFiles/CMakeScratch/TryCompile-dlxhot"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/alkemper/source/repos/Other endless sky/endless-sky/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/alkemper/source/repos/Other endless sky/endless-sky/build/CMakeFiles/CMakeScratch/TryCompile-dlxhot'
+        
+        Run Build Command(s): C:/Users/alkemper/ninja/ninja.exe -v cmTC_b2f5a
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\Preview\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe  /nologo -TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd   -std:c++14 /showIncludes /FoCMakeFiles\\cmTC_b2f5a.dir\\feature_tests.cxx.obj /FdCMakeFiles\\cmTC_b2f5a.dir\\ -c -- "C:\\Users\\alkemper\\source\\repos\\Other endless sky\\endless-sky\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dlxhot\\feature_tests.cxx"
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_b2f5a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\Preview\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_b2f5a.dir\\feature_tests.cxx.obj  /out:cmTC_b2f5a.exe /implib:cmTC_b2f5a.lib /pdb:cmTC_b2f5a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cmd.exe /C "cd /D "C:\\Users\\alkemper\\source\\repos\\Other endless sky\\endless-sky\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dlxhot" && C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file "C:/Users/alkemper/source/repos/Other endless sky/endless-sky/vcpkg/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary "C:/Users/alkemper/source/repos/Other endless sky/endless-sky/build/CMakeFiles/CMakeScratch/TryCompile-dlxhot/cmTC_b2f5a.exe" -installedDir "C:/Users/alkemper/source/repos/Other endless sky/endless-sky/vcpkg/installed/x64-windows/debug/bin" -OutVariable out""
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:61 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "C:/Users/alkemper/source/repos/Other endless sky/endless-sky/build/CMakeFiles/CMakeScratch/TryCompile-2h0riq"
+      binary: "C:/Users/alkemper/source/repos/Other endless sky/endless-sky/build/CMakeFiles/CMakeScratch/TryCompile-2h0riq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/alkemper/source/repos/Other endless sky/endless-sky/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/alkemper/source/repos/Other endless sky/endless-sky/build/CMakeFiles/CMakeScratch/TryCompile-2h0riq'
+        
+        Run Build Command(s): C:/Users/alkemper/ninja/ninja.exe -v cmTC_5e202
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\Preview\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe  /nologo -TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_5e202.dir\\feature_tests.cxx.obj /FdCMakeFiles\\cmTC_5e202.dir\\ -c -- "C:\\Users\\alkemper\\source\\repos\\Other endless sky\\endless-sky\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2h0riq\\feature_tests.cxx"
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5e202.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\Preview\\VC\\Tools\\Llvm\\x64\\bin\\lld-link.exe /nologo CMakeFiles\\cmTC_5e202.dir\\feature_tests.cxx.obj  /out:cmTC_5e202.exe /implib:cmTC_5e202.lib /pdb:cmTC_5e202.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cmd.exe /C "cd /D "C:\\Users\\alkemper\\source\\repos\\Other endless sky\\endless-sky\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2h0riq" && C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file "C:/Users/alkemper/source/repos/Other endless sky/endless-sky/vcpkg/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary "C:/Users/alkemper/source/repos/Other endless sky/endless-sky/build/CMakeFiles/CMakeScratch/TryCompile-2h0riq/cmTC_5e202.exe" -installedDir "C:/Users/alkemper/source/repos/Other endless sky/endless-sky/vcpkg/installed/x64-windows/debug/bin" -OutVariable out""
+        
+      exitCode: 0
+...

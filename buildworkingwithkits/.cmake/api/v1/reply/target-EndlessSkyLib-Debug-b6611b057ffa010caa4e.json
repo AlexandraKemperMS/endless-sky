@@ -1,0 +1,3093 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./AI.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Account.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./AlertLabel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./AmmoDisplay.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Angle.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Armament.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./AsteroidField.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Audio.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./BankPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./BatchDrawList.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./BatchShader.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Bitset.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./BoardingPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Body.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./CaptureOdds.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./CargoHold.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./CategoryList.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./CollisionSet.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Color.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Command.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./ConditionSet.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./ConditionsStore.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Conversation.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./ConversationPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./CoreStartData.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./DamageProfile.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./DataFile.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./DataNode.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./DataWriter.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Date.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Depreciation.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Dialog.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Dictionary.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./DistanceCalculationSettings.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./DistanceMap.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Distribution.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./DrawList.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Effect.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Engine.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./EsUuid.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./EscortDisplay.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./File.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Files.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./FillShader.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./FireCommand.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Fleet.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./FleetCargo.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Flotsam.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./FogShader.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./FormationPattern.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./FrameTimer.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Galaxy.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./GameAction.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./GameData.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./GameEvent.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./GameLoadingPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Gamerules.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./GameWindow.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Government.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./HailPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Hardpoint.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Hazard.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./HiringPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./ImageBuffer.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./ImageSet.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./InfoPanelState.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Information.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Interface.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./ItemInfoDisplay.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Logger.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./LineShader.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./LoadPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./LocationFilter.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./LogbookPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./MainPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./MapDetailPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./MapOutfitterPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./MapPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./MapPlanetCard.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./MapSalesPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./MapShipyardPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Mask.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./MaskManager.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./MenuAnimationPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./MenuPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Messages.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Minable.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Mission.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./MissionAction.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./MissionPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Mortgage.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Music.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./NPC.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./NPCAction.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./News.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Outfit.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./OutfitInfoDisplay.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./OutfitterPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./OutlineShader.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Panel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Person.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Personality.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Phrase.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Planet.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./PlanetLabel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./PlanetPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./PlayerInfo.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./PlayerInfoPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Plugins.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Point.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./PointerShader.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Politics.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Preferences.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./PreferencesPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./PrintData.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Projectile.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Radar.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./RaidFleet.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Random.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Rectangle.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./RingShader.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./SavedGame.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Screen.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Shader.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Ship.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./ShipEvent.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./ShipInfoDisplay.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./ShipInfoPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./ShipJumpNavigation.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./ShipManager.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./ShipyardPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./ShopPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Sound.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./SpaceportPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Sprite.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./SpriteQueue.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./SpriteSet.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./SpriteShader.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./StarField.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./StartConditions.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./StartConditionsPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./StellarObject.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./System.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Test.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./TestContext.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./TestData.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./TextReplacements.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Trade.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./TradingPanel.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./UI.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./UniverseObjects.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Variant.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Visual.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Weapon.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Weather.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./Wormhole.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./opengl.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./ship/ShipAICache.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./text/DisplayText.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./text/Font.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./text/FontSet.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./text/Format.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./text/Table.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./text/Utf8.cpp.obj"
+		},
+		{
+			"path" : "source/CMakeFiles/EndlessSkyLib.dir/./text/WrappedText.cpp.obj"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library",
+			"target_compile_options",
+			"target_compile_definitions",
+			"target_include_directories",
+			"target_link_libraries",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"source/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 639,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 113,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/W3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/permissive-"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/sdl"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/GR-"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/analyze-"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "_UNICODE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "C:/Users/alkemper/source/repos/Other endless sky/endless-sky/build/vcpkg_installed/x64-windows/include"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "C:/Users/alkemper/source/repos/Other endless sky/endless-sky/build/vcpkg_installed/x64-windows/include/SDL2"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "C:/Users/alkemper/source/repos/Other endless sky/endless-sky/build/vcpkg_installed/x64-windows/include/AL"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				36,
+				38,
+				40,
+				42,
+				44,
+				46,
+				48,
+				50,
+				53,
+				55,
+				57,
+				59,
+				61,
+				63,
+				65,
+				67,
+				70,
+				71,
+				73,
+				75,
+				77,
+				79,
+				81,
+				83,
+				86,
+				88,
+				90,
+				92,
+				94,
+				96,
+				98,
+				100,
+				102,
+				104,
+				106,
+				108,
+				110,
+				112,
+				114,
+				116,
+				118,
+				120,
+				122,
+				124,
+				126,
+				128,
+				130,
+				132,
+				134,
+				136,
+				138,
+				140,
+				143,
+				145,
+				147,
+				149,
+				151,
+				153,
+				155,
+				157,
+				159,
+				161,
+				163,
+				165,
+				167,
+				169,
+				171,
+				173,
+				175,
+				177,
+				179,
+				181,
+				183,
+				185,
+				187,
+				189,
+				191,
+				193,
+				195,
+				197,
+				199,
+				201,
+				203,
+				205,
+				207,
+				209,
+				211,
+				213,
+				215,
+				217,
+				219,
+				221,
+				223,
+				225,
+				227,
+				229,
+				231,
+				233,
+				235,
+				237,
+				239,
+				241,
+				244,
+				246,
+				249,
+				251,
+				254,
+				256,
+				258,
+				260,
+				262,
+				264,
+				266,
+				268,
+				270,
+				272,
+				274,
+				276,
+				278,
+				280,
+				282,
+				284,
+				286,
+				288,
+				290,
+				292,
+				295,
+				297,
+				299,
+				301,
+				303,
+				305,
+				307,
+				309,
+				311,
+				313,
+				315,
+				317,
+				320,
+				323,
+				330,
+				332,
+				334,
+				336,
+				338,
+				340,
+				342,
+				344
+			]
+		}
+	],
+	"id" : "EndlessSkyLib::@411ffd8adc737496fe19",
+	"name" : "EndlessSkyLib",
+	"paths" : 
+	{
+		"build" : "source",
+		"source" : "source"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				36,
+				38,
+				40,
+				42,
+				44,
+				46,
+				48,
+				50,
+				53,
+				55,
+				57,
+				59,
+				61,
+				63,
+				65,
+				67,
+				70,
+				71,
+				73,
+				75,
+				77,
+				79,
+				81,
+				83,
+				86,
+				88,
+				90,
+				92,
+				94,
+				96,
+				98,
+				100,
+				102,
+				104,
+				106,
+				108,
+				110,
+				112,
+				114,
+				116,
+				118,
+				120,
+				122,
+				124,
+				126,
+				128,
+				130,
+				132,
+				134,
+				136,
+				138,
+				140,
+				143,
+				145,
+				147,
+				149,
+				151,
+				153,
+				155,
+				157,
+				159,
+				161,
+				163,
+				165,
+				167,
+				169,
+				171,
+				173,
+				175,
+				177,
+				179,
+				181,
+				183,
+				185,
+				187,
+				189,
+				191,
+				193,
+				195,
+				197,
+				199,
+				201,
+				203,
+				205,
+				207,
+				209,
+				211,
+				213,
+				215,
+				217,
+				219,
+				221,
+				223,
+				225,
+				227,
+				229,
+				231,
+				233,
+				235,
+				237,
+				239,
+				241,
+				244,
+				246,
+				249,
+				251,
+				254,
+				256,
+				258,
+				260,
+				262,
+				264,
+				266,
+				268,
+				270,
+				272,
+				274,
+				276,
+				278,
+				280,
+				282,
+				284,
+				286,
+				288,
+				290,
+				292,
+				295,
+				297,
+				299,
+				301,
+				303,
+				305,
+				307,
+				309,
+				311,
+				313,
+				315,
+				317,
+				320,
+				323,
+				330,
+				332,
+				334,
+				336,
+				338,
+				340,
+				342,
+				344
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				5,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				34,
+				35,
+				37,
+				39,
+				41,
+				43,
+				45,
+				47,
+				49,
+				51,
+				52,
+				54,
+				56,
+				58,
+				60,
+				62,
+				64,
+				66,
+				68,
+				69,
+				72,
+				74,
+				76,
+				78,
+				80,
+				82,
+				84,
+				85,
+				87,
+				89,
+				91,
+				93,
+				95,
+				97,
+				99,
+				101,
+				103,
+				105,
+				107,
+				109,
+				111,
+				113,
+				115,
+				117,
+				119,
+				121,
+				123,
+				125,
+				127,
+				129,
+				131,
+				133,
+				135,
+				137,
+				139,
+				141,
+				142,
+				144,
+				146,
+				148,
+				150,
+				152,
+				154,
+				156,
+				158,
+				160,
+				162,
+				164,
+				166,
+				168,
+				170,
+				172,
+				174,
+				176,
+				178,
+				180,
+				182,
+				184,
+				186,
+				188,
+				190,
+				192,
+				194,
+				196,
+				198,
+				200,
+				202,
+				204,
+				206,
+				208,
+				210,
+				212,
+				214,
+				216,
+				218,
+				220,
+				222,
+				224,
+				226,
+				228,
+				230,
+				232,
+				234,
+				236,
+				238,
+				240,
+				242,
+				243,
+				245,
+				247,
+				248,
+				250,
+				252,
+				253,
+				255,
+				257,
+				259,
+				261,
+				263,
+				265,
+				267,
+				269,
+				271,
+				273,
+				275,
+				277,
+				279,
+				281,
+				283,
+				285,
+				287,
+				289,
+				291,
+				293,
+				294,
+				296,
+				298,
+				300,
+				302,
+				304,
+				306,
+				308,
+				310,
+				312,
+				314,
+				316,
+				318,
+				319,
+				321,
+				322,
+				324,
+				325,
+				326,
+				327,
+				328,
+				329,
+				331,
+				333,
+				335,
+				337,
+				339,
+				341,
+				343,
+				345,
+				346,
+				347,
+				348
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/AI.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/AI.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Account.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Account.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/AlertLabel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/AlertLabel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/AmmoDisplay.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/AmmoDisplay.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Angle.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Angle.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Armament.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Armament.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/AsteroidField.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/AsteroidField.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Audio.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Audio.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/BankPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/BankPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/BatchDrawList.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/BatchDrawList.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/BatchShader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/BatchShader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Bitset.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Bitset.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/BoardingPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/BoardingPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Body.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Body.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/CaptureOdds.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/CaptureOdds.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/CargoHold.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/CargoHold.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/CategoryList.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/CategoryList.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/CategoryTypes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/ClickZone.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/CollisionSet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/CollisionSet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Color.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Color.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Command.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Command.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/ConditionSet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/ConditionSet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/ConditionsStore.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/ConditionsStore.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Conversation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Conversation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/ConversationPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/ConversationPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/CoreStartData.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/CoreStartData.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/DamageDealt.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/DamageProfile.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/DamageProfile.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/DataFile.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/DataFile.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/DataNode.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/DataNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/DataWriter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/DataWriter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Date.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Date.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Depreciation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Depreciation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Dialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Dialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Dictionary.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Dictionary.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/DistanceCalculationSettings.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/DistanceCalculationSettings.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/DistanceMap.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/DistanceMap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Distribution.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Distribution.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/DrawList.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/DrawList.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Effect.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Effect.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Engine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Engine.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/EsUuid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/EsUuid.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/EscortDisplay.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/EscortDisplay.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/ExclusiveItem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/File.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/File.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Files.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Files.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/FillShader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/FillShader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/FireCommand.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/FireCommand.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Fleet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Fleet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/FleetCargo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/FleetCargo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Flotsam.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Flotsam.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/FogShader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/FogShader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/FormationPattern.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/FormationPattern.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/FrameTimer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/FrameTimer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Galaxy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Galaxy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/GameAction.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/GameAction.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/GameData.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/GameData.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/GameEvent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/GameEvent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/GameLoadingPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/GameLoadingPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Gamerules.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Gamerules.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/GameWindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/GameWindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Government.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Government.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/HailPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/HailPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Hardpoint.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Hardpoint.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Hazard.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Hazard.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/HiringPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/HiringPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/ImageBuffer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/ImageBuffer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/ImageSet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/ImageSet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/InfoPanelState.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/InfoPanelState.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Information.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Information.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Interface.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Interface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/ItemInfoDisplay.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/ItemInfoDisplay.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/JumpTypes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Logger.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Logger.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/LineShader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/LineShader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/LoadPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/LoadPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/LocationFilter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/LocationFilter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/LogbookPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/LogbookPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/MainPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/MainPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/MapDetailPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/MapDetailPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/MapOutfitterPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/MapOutfitterPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/MapPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/MapPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/MapPlanetCard.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/MapPlanetCard.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/MapSalesPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/MapSalesPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/MapShipyardPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/MapShipyardPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Mask.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Mask.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/MaskManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/MaskManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/MenuAnimationPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/MenuAnimationPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/MenuPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/MenuPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Messages.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Messages.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Minable.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Minable.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Mission.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Mission.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/MissionAction.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/MissionAction.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/MissionPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/MissionPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Mortgage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Mortgage.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Music.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Music.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/NPC.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/NPC.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/NPCAction.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/NPCAction.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/News.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/News.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Outfit.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Outfit.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/OutfitInfoDisplay.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/OutfitInfoDisplay.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/OutfitterPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/OutfitterPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/OutlineShader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/OutlineShader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Panel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Panel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Person.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Person.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Personality.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Personality.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Phrase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Phrase.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Planet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Planet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/PlanetLabel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/PlanetLabel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/PlanetPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/PlanetPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/PlayerInfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/PlayerInfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/PlayerInfoPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/PlayerInfoPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Plugins.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Plugins.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Point.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Point.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/PointerShader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/PointerShader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Politics.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Politics.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Preferences.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Preferences.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/PreferencesPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/PreferencesPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/PrintData.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/PrintData.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Projectile.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Projectile.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Radar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Radar.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/RaidFleet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/RaidFleet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Random.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Random.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/RandomEvent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Rectangle.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Rectangle.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/RingShader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/RingShader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Sale.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/SavedGame.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/SavedGame.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Screen.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Screen.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Set.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Shader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Shader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Ship.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Ship.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/ShipEvent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/ShipEvent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/ShipInfoDisplay.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/ShipInfoDisplay.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/ShipInfoPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/ShipInfoPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/ShipJumpNavigation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/ShipJumpNavigation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/ShipManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/ShipManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/ShipyardPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/ShipyardPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/ShopPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/ShopPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Sound.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Sound.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/SpaceportPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/SpaceportPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Sprite.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Sprite.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/SpriteQueue.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/SpriteQueue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/SpriteSet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/SpriteSet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/SpriteShader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/SpriteShader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/StarField.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/StarField.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/StartConditions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/StartConditions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/StartConditionsPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/StartConditionsPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/StellarObject.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/StellarObject.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/System.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/System.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/SystemEntry.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Test.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Test.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/TestContext.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/TestContext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/TestData.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/TestData.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/TextReplacements.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/TextReplacements.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Trade.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Trade.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/TradingPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/TradingPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/UI.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/UI.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/UniverseObjects.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/UniverseObjects.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Variant.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Variant.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Visual.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Visual.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Weapon.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Weapon.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Weather.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Weather.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/WeightedList.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/Wormhole.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/Wormhole.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/WormholeStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/opengl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/opengl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/pi.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/shift.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/comparators/ByGivenOrder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/comparators/ByName.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/comparators/BySeriesAndIndex.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/ship/ShipAICache.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/ship/ShipAICache.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/text/DisplayText.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/text/DisplayText.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/text/Font.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/text/Font.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/text/FontSet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/text/FontSet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/text/Format.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/text/Format.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/text/Table.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/text/Table.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/text/Utf8.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/text/Utf8.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "source/text/WrappedText.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/text/WrappedText.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/text/alignment.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/text/layout.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"path" : "source/text/truncate.hpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

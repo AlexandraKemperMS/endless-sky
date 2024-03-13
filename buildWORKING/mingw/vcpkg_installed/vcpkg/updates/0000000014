@@ -1,0 +1,9 @@
+Package: libmad
+Version: 0.15.1
+Port-Version: 12
+Depends: vcpkg-cmake:x64-windows
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: 0b1277fce037d67c0b97c35453046b10a21055711e4c4d70ffb0e7c6fbeb0f77
+Description: high-quality MPEG audio decoder
+Status: install ok half-installed
